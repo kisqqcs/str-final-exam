@@ -3,7 +3,7 @@ Feladatok
 
 A törléshez a UserService osztályban is hozd létre a szükséges metódust. DONE
 A törlés gombra kattintva a példa adatbázisból törlődjön az adott rekord. DONE
-Az oldal frissüljön és látszódjék, hogy hiányzik az adat.
+Az oldal frissüljön és látszódjék, hogy hiányzik az adat. DONE
 Törlés előtt jelenjen meg egy megerősítő kérdés.
 
 5. Validáld az adatokat a szerkesztő űrlapon! VALIDÁCIÓ
@@ -12,7 +12,7 @@ Ha nem megfelelő az adat, akkor jelenjen meg releváns hibaüzenet közvetlenü
 A hibaüzenet legyen piros.
 
 Ha az űrlap bármely mezője hibás adatot tartalmaz, a mentés gomb legyen letiltva és ne legyen az űrlap elküldhető. DONE
-Sikeres módosítás után navigáljon vissza az alkalmazás a táblázathoz.
+Sikeres módosítás után navigáljon vissza az alkalmazás a táblázathoz. DONE
 
 2. Tedd szűrhetővé a táblázatban megjelenő adatokat! FILTER
 A táblázat felett hozz létre egy beviteli mezőt. DONE
@@ -24,15 +24,13 @@ Ha egy másik oszlop fejlécére kattint, akkor pedig a szerint az oszlop szerin
 Kurzor pointer legyen.
 
 4. Tedd módosíthatóvá a táblázatban megjelenő rekordokat! UPDATE
-A táblázat sorainak utolsó cellájában lévő szerkesztés gombra kattintva jelenleg megjelenik a szerkesztő oldal.
-Az oldalon már létre vannak hozva a beviteli mezők.
-Ha a mentés gombra kattint a felhasználó, akkor az adatbázisban kerüljenek frissítésre az adott rekord adatai.
-A módosításhoz a UserService osztályban is hozd létre a szükséges metódust.
-
-
+A táblázat sorainak utolsó cellájában lévő szerkesztés gombra kattintva jelenleg megjelenik a szerkesztő oldal. DONE
+Az oldalon már létre vannak hozva a beviteli mezők. DONE
+Ha a mentés gombra kattint a felhasználó, akkor az adatbázisban kerüljenek frissítésre az adott rekord adatai. DONE
+A módosításhoz a UserService osztályban is hozd létre a szükséges metódust. DONE
 
 6. Tedd lehetővé új rekord rögzítését. CREATE
-Hozz létre egy teljes szélességű gombot a lista oldalon a táblázat felett, amelyre kattintva szintén a szerkesztő űrlap jelenik meg, de üres állapotban.
-Az adatbevitel során ugyanazok a validációs szabályok legyenek érvényesek, mint a szerkesztés esetén.
-Megfelelő kitöltés után a mentés gombra kattintva történjen meg az új rekord beszúrása az adatbázisba és navigáljon vissza az oldal a táblázathoz.
-A beszúráshoz a UserService osztályban is hozd létre a szükséges metódusokat. 
+Hozz létre egy teljes szélességű gombot a lista oldalon a táblázat felett, amelyre kattintva szintén a szerkesztő űrlap jelenik meg, de üres állapotban. DONE
+Az adatbevitel során ugyanazok a validációs szabályok legyenek érvényesek, mint a szerkesztés esetén. DONE
+Megfelelő kitöltés után a mentés gombra kattintva történjen meg az új rekord beszúrása az adatbázisba és navigáljon vissza az oldal a táblázathoz. DONE
+A beszúráshoz a UserService osztályban is hozd létre a szükséges metódusokat. DONE
