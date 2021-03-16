@@ -33,4 +33,16 @@ export class UserListComponent implements OnInit {
   onColumnSelect(key: string): void {
     this.columnKey = key;
 }
+
+setUsertoDelete(user: User): void {
+  this.user = user;
+  $('#confirmationDialog').on('shown.bs.modal', function () {
+    $('#cancelButton').trigger('focus')
+    let deleteIcon = document.querySelector(".fa-spinner");
+    if (deleteIcon !== null) {
+      deleteIcon.classList.remove("fa-spinner", "fa-pulse");
+      deleteIcon.classList.add("fa-trash");
+    }
+  })
+}
 }
