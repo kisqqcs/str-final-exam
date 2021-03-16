@@ -19,8 +19,9 @@ A táblázat felett hozz létre egy beviteli mezőt. DONE
 A beviteli mező értékének módosítása esetén a táblázat azon rekordjai maradjanak láthatóak, amelyek `name` mezője részben vagy egészben tartalmazza a beviteli mezőbe gépelt szöveget. DONE
 
 3. Tedd rendezhetővé a táblázatban megjelenő adatokat! SORTER
-Ha a felhasználó a táblázat fejléceire kattint, akkor a megjelenő rekordok rendeződjenek az adott oszlop szerint növekvő sorrendbe.
-Ha egy másik oszlop fejlécére kattint, akkor pedig a szerint az oszlop szerint, amelyre utoljára kattintottak. Csak növekvő sorrendbe kell rendezni.
+Ha a felhasználó a táblázat fejléceire kattint, akkor a megjelenő rekordok rendeződjenek az adott oszlop szerint növekvő sorrendbe. DONE
+Ha egy másik oszlop fejlécére kattint, akkor pedig a szerint az oszlop szerint, amelyre utoljára kattintottak. Csak növekvő sorrendbe kell rendezni. DONE
+Kurzor pointer legyen.
 
 4. Tedd módosíthatóvá a táblázatban megjelenő rekordokat! UPDATE
 A táblázat sorainak utolsó cellájában lévő szerkesztés gombra kattintva jelenleg megjelenik a szerkesztő oldal.
