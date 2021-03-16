@@ -4,7 +4,7 @@ Feladatok
 A törléshez a UserService osztályban is hozd létre a szükséges metódust. DONE
 A törlés gombra kattintva a példa adatbázisból törlődjön az adott rekord. DONE
 Az oldal frissüljön és látszódjék, hogy hiányzik az adat. DONE
-Törlés előtt jelenjen meg egy megerősítő kérdés.
+Törlés előtt jelenjen meg egy megerősítő kérdés. DONE
 
 2. Tedd szűrhetővé a táblázatban megjelenő adatokat! FILTER
 A táblázat felett hozz létre egy beviteli mezőt. DONE
@@ -24,7 +24,7 @@ A módosításhoz a UserService osztályban is hozd létre a szükséges metódu
 5. Validáld az adatokat a szerkesztő űrlapon! VALIDÁCIÓ
 Minden input elem előtt kommentben feltüntettük a validálás szabályait. Attribútumok és reguláris kifejezések használatával validáld a mezőkbe írt adatokat. DONE
 Ha nem megfelelő az adat, akkor jelenjen meg releváns hibaüzenet közvetlenül a hibás adatot tartalmazó mező alatt. DONE
-A hibaüzenet legyen piros.
+A hibaüzenet legyen piros. DONE
 
 Ha az űrlap bármely mezője hibás adatot tartalmaz, a mentés gomb legyen letiltva és ne legyen az űrlap elküldhető. DONE
 Sikeres módosítás után navigáljon vissza az alkalmazás a táblázathoz. DONE
