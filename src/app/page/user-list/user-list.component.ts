@@ -16,6 +16,8 @@ export class UserListComponent implements OnInit {
   filterPhrase: string = '';
   filterKey: string = 'name';
 
+  columnKey: string = '';
+
   constructor(
     private userService: UserService,
   ) { }
@@ -25,4 +27,8 @@ export class UserListComponent implements OnInit {
   onDelete(user: User): void {
     this.userService.remove(user);
   }
+
+  onColumnSelect(key: string): void {
+    this.columnKey = key;
+}
 }
