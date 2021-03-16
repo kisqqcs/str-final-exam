@@ -10,7 +10,14 @@
         class="form-control"
         type="text"
         name="name"
-        [(ngModel)]="user.name">
+        [(ngModel)]="user.name"
+        pattern=".{8,40}"
+        required>
+      </div>
+      <div class="message">
+        <div [hidden]="userForm.controls.name?.valid" class="error-message">
+          The username must be minimum 8 maximum 40 characters.
+        </div>
       </div>
       <div class="form-group">
         <label>Email</label>
@@ -20,7 +27,14 @@
           class="form-control"
           type="text"
           name="email"
-          [(ngModel)]="user.email">
+          [(ngModel)]="user.email"
+          pattern='^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$'
+          required>
+        </div>
+        <div class="message">
+          <div [hidden]="userForm.controls.email?.valid" class="error-message">
+            You have to provide a valid email address.
+          </div>
         </div>
         <div class="form-group">
           <label>Address</label>
@@ -29,7 +43,14 @@
           class="form-control"
           type="text"
           name="address"
-          [(ngModel)]="user.address">
+          [(ngModel)]="user.address"
+          pattern=".{8,100}"
+          required>
+      </div>
+      <div class="message">
+        <div [hidden]="userForm.controls.address?.valid" class="error-message">
+          Address has to be between 8 and 100 characters.
+        </div>
       </div>
       <div class="form-group">
         <label>Active</label>
