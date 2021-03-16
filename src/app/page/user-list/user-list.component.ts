@@ -11,12 +11,15 @@ import { UserService } from 'src/app/service/user.service';
 export class UserListComponent implements OnInit {
 
   users$: Observable<User[]> = this.userService.getAll();
+  user = new User();
 
   constructor(
     private userService: UserService,
   ) { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void { }
 
+  onDelete(user: User): void {
+    this.userService.remove(user);
+  }
 }
