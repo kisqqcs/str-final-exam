@@ -13,6 +13,9 @@ export class UserListComponent implements OnInit {
   users$: Observable<User[]> = this.userService.getAll();
   user = new User();
 
+  filterPhrase: string = '';
+  filterKey: string = 'name';
+
   constructor(
     private userService: UserService,
   ) { }

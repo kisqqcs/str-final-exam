@@ -15,8 +15,8 @@ Ha az űrlap bármely mezője hibás adatot tartalmaz, a mentés gomb legyen let
 Sikeres módosítás után navigáljon vissza az alkalmazás a táblázathoz.
 
 2. Tedd szűrhetővé a táblázatban megjelenő adatokat! FILTER
-A táblázat felett hozz létre egy beviteli mezőt.
-A beviteli mező értékének módosítása esetén a táblázat azon rekordjai maradjanak láthatóak, amelyek `name` mezője részben vagy egészben tartalmazza a beviteli mezőbe gépelt szöveget.
+A táblázat felett hozz létre egy beviteli mezőt. DONE
+A beviteli mező értékének módosítása esetén a táblázat azon rekordjai maradjanak láthatóak, amelyek `name` mezője részben vagy egészben tartalmazza a beviteli mezőbe gépelt szöveget. DONE
 
 3. Tedd rendezhetővé a táblázatban megjelenő adatokat! SORTER
 Ha a felhasználó a táblázat fejléceire kattint, akkor a megjelenő rekordok rendeződjenek az adott oszlop szerint növekvő sorrendbe.
